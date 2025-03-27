@@ -1,8 +1,11 @@
 # Research Hub for AIoT Lab @ CAU
 
 AIoT Lab(Artificial Intelligence of Things Laboratory)
+
 ![AIoT Lab Logo](https://via.placeholder.com/150?text=AIoT+Lab)
+
 **연구실 홈페이지**: [sites.google.com/view/aiot-cau](https://sites.google.com/view/aiot-cau)
+
 
 ## 소개
 이 [저장소](#저장소-안내)는 AIoT 분야 연구와 대학원 진학을 희망하는 학생들이 연구 과정을 체계적으로 경험하고 실질적인 연구 역량을 키울 수 있도록 트레이닝 리소스와 가이드라인을 제공합니다.
