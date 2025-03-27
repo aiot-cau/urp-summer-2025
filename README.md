@@ -120,18 +120,10 @@ AIoT-Intern-Training/
 │   └── iot-sensors/              # IoT 센서 데이터 처리 튜토리얼
 │
 ├── paper-reviews/                # 논문 리뷰 템플릿 및 예시
-│   ├── review-template.md        # 논문 리뷰 작성 템플릿
 │   ├── example-reviews/          # 예시 논문 리뷰
 │   └── reading-list.md           # 추천 논문 목록
 │
 ├── research-projects/            # 연구 프로젝트 템플릿
-│   ├── project-template/         # 프로젝트 구조 템플릿
-│   │   ├── README.md             # 프로젝트 설명
-│   │   ├── data/                 # 데이터 저장 디렉토리
-│   │   ├── notebooks/            # Jupyter 노트북
-│   │   ├── src/                  # 소스 코드
-│   │   ├── results/              # 실험 결과 저장
-│   │   └── reports/              # 진행 보고서 및 최종 보고서
 │   └── example-projects/         # 예시 프로젝트
 │
 ├── resources/                    # 참고 자료
@@ -140,9 +132,18 @@ AIoT-Intern-Training/
 │   └── conferences.md            # 주요 학회 및 저널 정보
 │
 └── templates/                    # 각종 템플릿
+    ├── review-template.md        # 논문 리뷰 작성 템플릿
     ├── progress-report.md        # 주간/월간 진행 보고서 템플릿
     ├── meeting-notes.md          # 미팅 노트 템플릿
-    └── presentation.pptx         # 발표 템플릿
+    ├── presentation.pptx         # 발표 템플릿
+    └── project-template/         # 프로젝트 구조 템플릿
+        ├── README.md             # 프로젝트 설명
+        ├── requirements.txt      # 패키지 목록
+        ├── data/                 # 데이터 저장 디렉토리
+        ├── notebooks/            # Jupyter 노트북
+        ├── src/                  # 소스 코드
+        ├── results/              # 실험 결과 저장
+        └── reports/              # 진행 보고서 및 최종 보고서
 ```
 
 ### 주요 섹션 설명
