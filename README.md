@@ -2,8 +2,6 @@
 
 AIoT Lab(Artificial Intelligence of Things Laboratory)
 
-![AIoT Lab Logo](https://via.placeholder.com/150?text=AIoT+Lab)
-
 **연구실 홈페이지**: [sites.google.com/view/aiot-cau](https://sites.google.com/view/aiot-cau)
 
 
