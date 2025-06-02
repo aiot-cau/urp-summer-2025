@@ -3,10 +3,10 @@
 AIoT Lab(Artificial Intelligence of Things Laboratory)
 
 **연구실 홈페이지**: [sites.google.com/view/aiot-cau](https://sites.google.com/view/aiot-cau)
-
+중앙대학교 AIoT Lab.(Artificial Intelligence of Things Laboratory)은 인공지능과 사물인터넷 기술을 융합한 연구를 수행하는 연구실로, 특히 시계열 데이터, 센서 데이터 분석 및 예측, 이상 탐지 등의 분야에 중점을 두고 있습니다.
 
 ## 소개
-이 [저장소](#저장소-안내)는 AIoT 분야 연구와 대학원 진학을 희망하는 학생들이 연구 과정을 체계적으로 경험하고 실질적인 연구 역량을 키울 수 있도록 트레이닝 리소스와 가이드라인을 제공
+[aiot-cau/researh-hub](#저장소-안내)은 AIoT Lab. 대학원 진학을 희망하는 학생들이 연구 과정을 체계적으로 경험하고 실질적인 연구 역량을 키울 수 있도록 트레이닝 리소스와 가이드라인을 제공합니다.
 
 ## 학부인턴 프로그램 목표
 
@@ -21,8 +21,8 @@ AIoT Lab(Artificial Intelligence of Things Laboratory)
 ## 인턴 자격 요건
 
 ### 필수 역량
-- **프로그래밍**: Python을 활용한 자료 전처리, 모델 구현, 실험 수행 능력
-- **기본 지식**: 머신러닝 및 딥러닝에 대한 기본적인 이해
+- **프로그래밍**: Python을 활용한 데이터 전처리, 분석 모델 구현, 실험 수행 능력
+- **기본 지식**: 머신러닝 및 딥러닝에 대한 전반적인 이해
 
 ### 우대 사항
 - Keras 또는 PyTorch 사용 경험
@@ -92,8 +92,6 @@ AIoT Lab(Artificial Intelligence of Things Laboratory)
   * 향후 연구 방향 논의
 
 ## 저장소 안내
-
-이 저장소는 다음과 같은 리소스를 제공합니다:
 
 1. **온보딩**: 초기 환경 설정 안내 및 필요 기술 학습 자료
 2. **논문 리뷰**: 효과적인 논문 분석 및 리뷰 방법론
