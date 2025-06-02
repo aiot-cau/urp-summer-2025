@@ -182,3 +182,5 @@ git remote -v
 - [GitHub 학습 리소스](https://docs.github.com/en/get-started)
 - [Git 브랜칭 모델](https://nvie.com/posts/a-successful-git-branching-model/)
 - [대화형 Git 학습](https://learngitbranching.js.org/)
+
+---

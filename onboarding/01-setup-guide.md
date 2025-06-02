@@ -1,6 +1,7 @@
 # Python 개발 환경 설정 가이드
 
-AIoT Lab 연구 활동을 위한 Python 개발 환경 설정 가이드입니다. 이 문서에서는 Anaconda를 사용한 환경 설정 방법과 주요 라이브러리 설치 방법을 안내합니다.
+AIoT Lab 연구 활동을 위한 Python 개발 환경 설정 가이드로, 이 문서에서는 Anaconda를 사용한 환경 설정 방법과 주요 라이브러리 설치 방법을 안내합니다.
+(Note: Colab 사용 시 별도의 환경 설정은 필요하지 않습니다.)
 
 ## 목차
 
@@ -14,7 +15,7 @@ AIoT Lab 연구 활동을 위한 Python 개발 환경 설정 가이드입니다.
 
 ## 1. Anaconda 설치
 
-Anaconda는 Python과 다양한 과학 계산용 패키지를 포함하는 배포판으로, 가상 환경 관리에 용이합니다.
+Anaconda는 Python과 다양한 과학 계산용 패키지를 포함하는 배포판으로, 가상 환경 관리에 용이
 
 ### 설치 단계
 
@@ -29,7 +30,7 @@ Anaconda는 Python과 다양한 과학 계산용 패키지를 포함하는 배�
 
 ## 2. 가상 환경 생성
 
-프로젝트별로 독립된 환경을 사용하면 라이브러리 버전 충돌을 방지할 수 있습니다.
+프로젝트별로 독립된 환경을 사용하여 라이브러리 버전 충돌을 방지
 
 ### AIoT Lab 기본 환경 설정
 
@@ -46,7 +47,7 @@ conda deactivate
 
 ## 3. 주요 라이브러리 설치
 
-AIoT Lab 연구에 필요한 주요 라이브러리를 설치합니다.
+AIoT Lab 연구에 필요한 주요 라이브러리 설치
 
 ### 기본 데이터 분석 및 과학 계산 라이브러리
 
@@ -90,7 +91,7 @@ pip install openpyxl  # Excel 파일 처리
 
 ## 4. Jupyter Notebook 설정
 
-Jupyter Notebook은 코드 실행, 시각화, 문서화를 동시에 할 수 있는 도구입니다.
+Jupyter Notebook은 코드 실행, 시각화, 문서화를 동시에 할 수 있는 도구
 
 ```bash
 # Jupyter 설치
@@ -116,7 +117,7 @@ conda install -c conda-forge jupyter_nbextensions_configurator
 
 ## 5. IDE 설정 (VSCode)
 
-Visual Studio Code는 가볍고 강력한 코드 에디터로 Python 개발에 적합합니다.
+Visual Studio Code는 가볍고 강력한 코드 에디터로 Python 개발에 적합
 
 1. [VS Code 다운로드](https://code.visualstudio.com/) 및 설치
 2. Python 확장 프로그램 설치 (Extensions 탭에서 'Python' 검색)
@@ -142,8 +143,8 @@ Visual Studio Code는 가볍고 강력한 코드 에디터로 Python 개발에 �
 git --version
 
 # Git 기본 설정
-git config --global user.name "당신의 이름"
-git config --global user.email "당신의 이메일"
+git config --global user.name "이름"
+git config --global user.email "이메일"
 
 # 저장소 복제
 git clone https://github.com/username/repository.git
@@ -159,7 +160,7 @@ echo "__pycache__/" >> .gitignore
 
 ## 7. 환경 공유 및 재현
 
-연구 결과의 재현성을 위해 환경 설정을 공유하는 방법입니다.
+연구 결과의 재현성을 위한 환경 설정 공유
 
 ### 환경 내보내기
 
@@ -195,5 +196,3 @@ conda env create -f environment.yml
 * [VS Code Python 튜토리얼](https://code.visualstudio.com/docs/python/python-tutorial)
 
 ---
-
-문제나 질문이 있으면 연구실 선배나 지도 교수님에게 문의하세요.
