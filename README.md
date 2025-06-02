@@ -103,30 +103,29 @@ AIoT Lab. (Artificial Intelligence of Things Laboratory) @ CAU
 
 ```
 researh-hub/
-├── README.md                                                    # 전체 저장소 소개 및 사용법
-├── onboarding                                                   # 신규 인턴을 위한 온보딩 자료
-│   ├── 01-setup-guide.md                                      # 개발 환경 설정 가이드
-│   ├── 02-git-basics.md                                       # Git 기본 사용법 안내
-│   ├── 03-study-guide.md                                      # 학습 자료 및 튜토리얼 링크
-│   ├── 04-research-guidelines.md                              # 연구 수행 및 논문 작업 지침
-│   └── README.md                                               # 온보딩 과정 전체 안내
-├── paper-reviews                                               # 논문 리뷰 관련 자료
-│   ├── README.md                                               # 논문 리뷰 진행 방법 안내
-│   ├── example-reviews                                         # 논문 리뷰 예시 모음
-│   │   └── attention-is-all-you-need-김나경-20230530.md       # 논문 리뷰 작성 예시
-│   └── reading-list.md                                         # 추천 논문 목록
-├── research-projects                                           # 연구 프로젝트 관련 자료
-│   └── example-projects                                        # 예시 프로젝트 모음
-│       └── kpi-estimation                                      # KPI 추정 프로젝트 예시
-│           └── README.md                                       # 프로젝트 상세 설명
-├── resources                                                   # 연구에 유용한 리소스 모음
-│   ├── README.md                                               # 리소스 카테고리 안내
-│   └── datasets.md                                             # 연구용 데이터셋 목록
-└── templates                                                   # 문서 작성용 템플릿 모음
-   ├── meeting-notes.md                                        # 회의록 작성 템플릿
-   ├── progress-report.md                                      # 진행상황 보고서 템플릿
-   ├── project-template.md                                     # 연구 프로젝트 문서 템플릿
-   └── review-template.md                                      # 논문 리뷰 작성 템플릿
+├── README.md                             # 전체 저장소 소개 및 사용법
+├── onboarding                            # 연구실 온보딩 자료
+│   ├── 01-setup-guide.md                 # 개발 환경 설정 가이드
+│   ├── 02-git-basics.md                  # Git 기본 사용법 안내
+│   ├── 03-study-guide.md                 # 학습 자료 및 튜토리얼 링크
+│   ├── 04-research-guidelines.md         # 연구 수행 및 논문 작업 지침
+│   └── README.md                         # 연구실 소개 및 프로그램 안내
+│
+├── paper-reviews                         # 논문 리뷰 관련 자료
+│   ├── example-reviews                   # 논문 리뷰 예시
+│   └── reading-list.md                   # 추천 논문 목록
+│
+├── research-projects                     # 연구 프로젝트 관련 자료
+│   └── example-projects                  # 연구 프로젝트 예시
+│
+├── resources                             # 참고 자료 
+│   └── datasets.md                       # 공개 데이터셋 목록 및 설명
+│
+└── templates                             # 문서 작성용 템플릿 모음
+   ├── meeting-notes.md                   # 회의록 작성 템플릿
+   ├── progress-report.md                 # 진행상황 보고서 템플릿
+   ├── project-template.md                # 연구 프로젝트 문서 템플릿
+   └── review-template.md                 # 논문 리뷰 작성 템플릿
 ```
 
 ### 주요 섹션 설명
