@@ -22,8 +22,8 @@ Git은 분산 버전 관리 시스템으로, 코드 변경 사항을 추적하�
 
 ```bash
 # 사용자 정보 설정
-git config --global user.name "홍길동"
-git config --global user.email "이메일@example.com"
+git config --global user.name "이름"
+git config --global user.email "이메일"
 
 # 편집기 설정 (선택 사항)
 git config --global core.editor "code --wait"  # VS Code 사용 시
