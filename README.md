@@ -4,10 +4,10 @@ AIoT Lab. (Artificial Intelligence of Things Laboratory) @ CAU
 
 **연구실 홈페이지**: [AIoT @ CAU](https://sites.google.com/view/aiot-cau)
 
-중앙대학교 AIoT Lab.은 인공지능과 사물인터넷 기술을 융합한 연구를 수행하는 연구실로, 특히 시계열 데이터, 센서 데이터 분석 및 예측, 이상 탐지 등의 분야에 중점을 두고 있습니다.
+중앙대학교 AIoT Lab은 인공지능과 사물인터넷 기술을 융합한 연구를 수행하는 연구실로, 특히 시계열 데이터, 센서 데이터 분석 및 예측, 이상 탐지 등의 분야에 중점을 두고 있습니다.
 
 ## 소개
-[aiot-cau/researh-hub](#저장소-안내)은 AIoT Lab. 대학원 진학을 희망하는 학생들이 연구 과정을 체계적으로 경험하고 실질적인 연구 역량을 키울 수 있도록 트레이닝 리소스와 가이드라인을 제공합니다.
+[aiot-cau/researh-hub](#저장소-안내)은 AIoT Lab 대학원 진학을 희망하는 학생들이 연구 과정을 체계적으로 경험하고 실질적인 연구 역량을 키울 수 있도록 트레이닝 리소스와 가이드라인을 제공합니다.
 
 ## 학부인턴 프로그램
 
@@ -52,7 +52,7 @@ AIoT Lab. (Artificial Intelligence of Things Laboratory) @ CAU
 
 ### 시작하기
 
-1. 이 repoository를 자신의 GitHub 계정으로 포크(Fork)
+1. `researsh-hub` repo를 자신의 GitHub 계정으로 포크(Fork)
 2. 로컬 환경에 클론(Clone)하여 작업 환경을 설정
 3. `onboarding` 디렉토리의 가이드에 따라 초기 설정 및 학습 완료
 4. 주간 진행 상황을 저장소에 업데이트하고 공유
