@@ -1,100 +1,83 @@
-# AIoT 분야 추천 논문 목록
+# AI 추천 논문 목록
+- **중요도**: ●○○ (참고), ●●○ (권장), ●●● (필수)  
+- **난이도**: ●○○ (입문), ●●○ (중급), ●●● (고급)  
 
-이 문서는 AIoT Lab 학부 인턴을 위한 추천 논문 목록입니다. 논문들은 주제별로 분류되어 있으며, 각 논문의 중요도와 난이도를 표시했습니다.
+## 📷 이미지 분야
 
-**중요도**: ★(기초) ~ ★★★(필수)  
-**난이도**: 🔍(입문) ~ 🔍🔍🔍(고급)
+### 1. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (ResNet)
+- **저자**: K. He, X. Zhang, S. Ren, J. Sun
+- **출처**: CVPR 2016
+- **중요도**: ●●● | **난이도**: ●●○
+- **요약**: Skip connection을 도입하여 매우 깊은 신경망 학습을 가능하게 만든 획기적인 구조로, 이후의 많은 CNN 모델의 기반이 됨.
 
-## 목차
-1. [기초 개념 및 서베이](#1-기초-개념-및-서베이)
-2. [시계열 데이터 분석](#2-시계열-데이터-분석)
-3. [이상 탐지](#3-이상-탐지)
-4. [에지 컴퓨팅 및 모델 경량화](#4-에지-컴퓨팅-및-모델-경량화)
-5. [스마트 센서 및 IoT 시스템](#5-스마트-센서-및-iot-시스템)
-6. [강화학습 기반 AIoT](#6-강화학습-기반-aiot)
-7. [AIoT 응용 사례](#7-aiot-응용-사례)
-8. [최신 트렌드](#8-최신-트렌드)
+### 2. [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861) (MobileNets)
+- **저자**: A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko
+- **출처**: arXiv 2017
+- **중요도**: ●●○ | **난이도**: ●○○
+- **요약**: Depthwise Separable Convolution을 이용해 연산량을 획기적으로 줄인 경량화 CNN으로, 모바일 및 임베디드 비전 환경에 최적화됨.
 
-## 1. 기초 개념 및 서베이
+### 3. [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) (ViT)
+- **저자**: A. Dosovitskiy et al.
+- **출처**: ICLR 2021
+- **중요도**: ●●● | **난이도**: ●●●
+- **요약**: 이미지 분류 문제를 Transformer 구조로 풀어낸 최초의 연구로, CNN 중심의 컴퓨터비전 패러다임을 Transformer로 확장함.
 
-### 1.1. AIoT 개요 및 동향
+## 📝 자연어 처리 분야
 
-1. **"Artificial Intelligence of Things (AIoT): Vision, Architecture, and Applications"** (2020)  
-   저자: S. K. Sharma, X. Wang  
-   출처: IEEE Internet of Things Journal  
-   중요도: ★★★ | 난이도: 🔍  
-   요약: AIoT의 개념, 아키텍처, 주요 기술 및 응용 분야를 포괄적으로 소개하는 서베이 논문
+### 1. [Attention is All You Need](https://arxiv.org/abs/1706.03762) (Transformer)
+- **저자**: A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit et al.
+- **출처**: NeurIPS 2017
+- **중요도**: ●●● | **난이도**: ●●○
+- **요약**: Self-Attention 메커니즘을 도입해 순차적인 구조 없이 병렬 처리를 가능하게 만들었으며, 이후 대부분의 NLP 모델의 기반이 됨.
 
-2. **"A Survey on Edge Intelligence"** (2020)  
-   저자: Z. Zhou, X. Chen, E. Li, L. Zeng, K. Luo, J. Zhang  
-   출처: IEEE Access  
-   중요도: ★★ | 난이도: 🔍  
-   요약: 에지 인텔리전스의 개념, 기술적 과제, 최신 연구 동향을 소개
+### 2. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (BERT)
+- **저자**: J. Devlin, M. Chang, K. Lee, K. Toutanova
+- **출처**: NAACL 2019
+- **중요도**: ●●● | **난이도**: ●●○
+- **요약**: 양방향 Transformer 구조를 활용해 문맥을 정교하게 파악할 수 있는 사전학습 모델을 제안하며, 다양한 NLP 태스크에서 SOTA 달성.
 
-3. **"Deep Learning for IoT Big Data and Streaming Analytics: A Survey"** (2018)  
-   저자: M. Mohammadi, A. Al-Fuqaha, S. Sorour, M. Guizani  
-   출처: IEEE Communications Surveys & Tutorials  
-   중요도: ★★ | 난이도: 🔍🔍  
-   요약: IoT 데이터 분석을 위한 딥러닝 기술의 적용 방법과 과제 논의
+## ⏳ 시계열 분야
 
-### 1.2. 기초 기술 및 방법론
+### 1. [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) (wav2vec 2.0)
+- **저자**: A. Baevski, H. Zhou, A. Mohamed, M. Auli
+- **출처**: NeurIPS 2020
+- **중요도**: ●●● | **난이도**: ●●●
+- **요약**: 음성 데이터에서 라벨 없이도 representation을 학습할 수 있도록 self-supervised 방식의 음성 인식 모델을 제안함.
 
-4. **"Attention Is All You Need"** (2017)  
-   저자: A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, I. Polosukhin  
-   출처: NeurIPS  
-   중요도: ★★★ | 난이도: 🔍🔍  
-   요약: Transformer 아키텍처를 제안한 논문으로, 시계열 데이터 처리와 AIoT에도 많은 영향을 미침
+### 2. [A Decoder-Only Foundation Model for Time-Series Forecasting](https://arxiv.org/abs/2310.10688) (TimesFM)
+- **저자**: J. Wu, M. J. Zhang, Y. Chen, Q. Zhou, Y. Wu
+- **출처**: ICLR 2023
+- **중요도**: ●●○ | **난이도**: ●●○
+- **요약**: 시계열 예측을 위해 decoder-only 구조를 기반으로 한 foundation model을 제안하며, 다양한 시계열 데이터에 범용 적용 가능성을 보여줌.
 
-5. **"EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks"** (2019)  
-   저자: M. Tan, Q. V. Le  
-   출처: ICML  
-   중요도: ★★ | 난이도: 🔍🔍  
-   요약: 효율적인 CNN 모델 스케일링 방법론으로, 자원 제약적인 IoT 환경에서 유용
+## 🧬 생성형 모델 분야
 
-## 2. 시계열 데이터 분석
+### 1. [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) (GAN)
+- **저자**: I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, et al.
+- **출처**: NeurIPS 2014
+- **중요도**: ●●● | **난이도**: ●●●
+- **요약**: Generator와 Discriminator가 경쟁하는 적대적 학습 구조로, 생성 모델의 패러다임을 획기적으로 전환시킨 기념비적 논문.
 
-### 2.1. 시계열 예측
+### 2. [Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937) (VQ-VAE)
+- **저자**: A. van den Oord, O. Vinyals, K. Kavukcuoglu
+- **출처**: NeurIPS 2017
+- **중요도**: ●●○ | **난이도**: ●●○
+- **요약**: 벡터 양자화를 통해 discrete latent space를 형성하고, 안정적인 생성과 압축 표현을 동시에 달성한 생성 모델.
 
-6. **"DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks"** (2018)  
-   저자: D. Salinas, V. Flunkert, J. Gasthaus, T. Januschowski  
-   출처: International Journal of Forecasting  
-   중요도: ★★★ | 난이도: 🔍🔍  
-   요약: 확률적 시계열 예측을 위한 RNN 기반 모델 제안
+### 3. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) (DDPM)
+- **저자**: J. Ho, A. Jain, P. Abbeel
+- **출처**: NeurIPS 2020
+- **중요도**: ●●● | **난이도**: ●●●
+- **요약**: 점진적으로 노이즈를 제거하는 과정을 통해 고품질 이미지를 생성하는 diffusion 기반 모델로, 최근 생성 모델의 핵심 트렌드가 됨.
 
-7. **"N-BEATS: Neural Basis Expansion Analysis for Interpretable Time Series Forecasting"** (2020)  
-   저자: B. N. Oreshkin, D. Carpov, N. Chapados, Y. Bengio  
-   출처: ICLR  
-   중요도: ★★ | 난이도: 🔍🔍  
-   요약: 해석 가능한 딥러닝 기반 시계열 예측 모델
+### 4. [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) (Stable Diffusion)
+- **저자**: R. Rombach, A. Blattmann, D. Lorenz, P. Esser, B. Ommer
+- **출처**: CVPR 2022
+- **중요도**: ●●○ | **난이도**: ●●○
+- **요약**: 잠재 공간에서의 diffusion을 통해 계산 효율성을 높이면서도 고해상도 이미지 생성이 가능한 모델로 실전 활용도가 높음.
 
-8. **"Transformer-based Deep Survival Analysis"** (2021)  
-   저자: L. Wang, J. Chu, J. H. Malmgren, Y. Bai, E. K. Lee, P. Lio  
-   출처: KDD  
-   중요도: ★★ | 난이도: 🔍🔍🔍  
-   요약: Transformer를 활용한 시계열 데이터 분석 및 생존 분석 방법론
+---
 
-### 2.2. 다변량 시계열 분석
+**참고**: 이 목록은 계속 업데이트됩니다. 추가하고 싶은 논문이 있다면 연구실 GitHub 저장소에 기여해주세요.
 
-9. **"Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks"** (2018)  
-   저자: G. Lai, W.-C. Chang, Y. Yang, H. Liu  
-   출처: SIGIR  
-   중요도: ★★ | 난이도: 🔍🔍  
-   요약: 장단기 시간 패턴을 동시에 모델링하는 LSTNet 제안
-
-10. **"Multivariate Time Series Imputation with Generative Adversarial Networks"** (2018)  
-    저자: Y. Luo, X. Cai, Y. Zhang, J. Xu, Y. Xiaojie  
-    출처: NeurIPS  
-    중요도: ★★ | 난이도: 🔍🔍  
-    요약: GAN을 활용한 다변량 시계열 데이터의 결측치 처리 방법
-
-## 3. 이상 탐지
-
-### 3.1. 일반적인 이상 탐지 방법
-
-11. **"A Survey on Deep Learning for Anomaly Detection in IoT Time Series"** (2021)  
-    저자: H. Ren, Z. Xu, W. Wang, L. Zhuang, C. Ye, X. Wang, G. Zhou  
-    출처: ACM Computing Surveys  
-    중요도: ★★★ | 난이도: 🔍  
-    요약: IoT 시계열 데이터의 이상 탐지를 위한 딥러닝 기법 서베이
-
-12. **"LSTM-based Encoder-Decoder for Multi-sensor Anom...
+**마지막 업데이트**: 2025-05-30
