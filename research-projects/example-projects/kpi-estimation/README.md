@@ -1,6 +1,6 @@
 # KPI Estimation 프로젝트
 
-## 프로젝트 소개
+## 소개
 
 KPI Estimation 프로젝트는 5G 네트워크 환경에서 수집된 시계열 데이터를 활용하여 핵심 성과 지표(KPI, Key Performance Indicators)를 예측하는 연구로, 이 프로젝트는 AIoT Lab의 시계열 예측 기술을 5G 네트워크 성능 분석에 적용한 실제 응용 사례를 보여줌
 
@@ -57,7 +57,7 @@ KPI Estimation 프로젝트는 5G 네트워크 환경에서 수집된 시계열 
 
 ## 프로젝트 소스코드
 
-**GitHub Repository**: https://github.com/nkim71-dev/kpiEstimate
+**GitHub Repository**: [url]
 
 
 ### 구조
@@ -65,7 +65,7 @@ KPI Estimation 프로젝트는 5G 네트워크 환경에서 수집된 시계열 
 ```
 kpi-estimation/
 ├── data/
-│   ├── raw/                    # 원본 5G 데이터셋
+│   ├── raw/                    # 원본 데이터셋
 │   ├── processed/              # 전처리된 데이터
 │   └── columns.json            # 데이터 컬럼 설명
 ├── src/
