@@ -1,4 +1,4 @@
-# AIoT Lab Learning Guide
+# AIoT Lab Study Guide
 
 ## Python Basics
 * **CS231n Python-NumPy Tutorial**

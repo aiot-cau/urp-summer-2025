@@ -1,4 +1,4 @@
-# AIoT Lab 오리엔테이션
+# AIoT Lab Onboarding
 
 ## 연구실 소개
 
