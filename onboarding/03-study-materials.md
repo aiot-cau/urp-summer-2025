@@ -16,7 +16,8 @@
 * **Keras**
   * https://keras.io/examples/
 * **PyTorch**
-  * https://pytorch.org/tutorials/
+  * (Eng) https://pytorch.org/tutorials/
+  * (Kr)  https://tutorials.pytorch.kr/
 
 ---
 ## 학습 권장 순서
