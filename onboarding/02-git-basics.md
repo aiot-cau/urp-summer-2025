@@ -41,30 +41,30 @@
 3. 자신의 계정 또는 조직에 Fork 생성
 4. 로컬에 복제:
 
-   ```bash
-   git clone https://github.com/your-username/urp-summer-2025.git
-   cd urp-summer-2025
-   ```
+```bash
+git clone https://github.com/your-username/urp-summer-2025.git
+cd urp-summer-2025
+```
 
 5. 원본 저장소를 `upstream` 으로 등록:
 
-   ```bash
-   git remote add upstream https://github.com/aiot-cau/urp-summer-2025.git
-   ```
+```bash
+git remote add upstream https://github.com/aiot-cau/urp-summer-2025.git
+```
 
 
 ### 2. 작업 전 원본 저장소 동기화 (upstream 반영)
 
 Fork는 원본 저장소와 자동으로 동기화되지 않으므로, **작업을 시작하기 전에 반드시 최신 상태를 반영**
 
-   ```bash
-   # upstream에서 최신 변경 사항 가져오기
-   git fetch upstream
+```bash
+# upstream에서 최신 변경 사항 가져오기
+git fetch upstream
 
-   # 내 main 브랜치로 이동 후 병합
-   git checkout main
-   git merge upstream/main
-   ```
+# 내 main 브랜치로 이동 후 병합
+git checkout main
+git merge upstream/main
+```
 
 > ⚠️ 충돌이 발생하는 경우 수동으로 해결 후 커밋 필요
 
@@ -74,23 +74,23 @@ Fork는 원본 저장소와 자동으로 동기화되지 않으므로, **작업�
 
 1. 기능/수정 작업을 위한 브랜치 생성:
 
-   ```bash
-   git checkout -b branch-name
-   ```
+```bash
+git checkout -b branch-name
+```
 
 2. 코드 수정 및 테스트 진행
 3. 변경 사항 저장:
 
-   ```bash
-   git add .
-   git commit -m "구현 내용 요약"
-   ```
+```bash
+git add .
+git commit -m "구현 내용 요약"
+```
 
 4. 자신의 저장소에 push:
 
-   ```bash
-   git push origin branch-name
-   ```
+```bash
+git push origin branch-name
+```
 
 
 ### 4. Pull Request 생성
@@ -107,71 +107,71 @@ Fork는 원본 저장소와 자동으로 동기화되지 않으므로, **작업�
 ### 기본 Git 명령어
 
 * 저장소 초기화 및 복제
-   ```bash
-   # 새 저장소 초기화
-   git init
+```bash
+# 새 저장소 초기화
+git init
 
-   # 원격 저장소 복제
-   git clone https://github.com/username/repository.git
-   ```
+# 원격 저장소 복제
+git clone https://github.com/username/repository.git
+```
 
 * 변경 사항 관리
-   ```bash
-   # 변경 사항 확인
-   git status
+```bash
+# 변경 사항 확인
+git status
 
-   # 변경 사항 스테이징
-   git add 파일명
-   git add .  # 모든 변경 사항 스테이징
+# 변경 사항 스테이징
+git add 파일명
+git add .  # 모든 변경 사항 스테이징
 
-   # 변경 사항 커밋
-   git commit -m "커밋 메시지"
+# 변경 사항 커밋
+git commit -m "커밋 메시지"
 
-   # 변경 내역 확인
-   git log
-   ```
+# 변경 내역 확인
+git log
+```
 
 * 브랜치 관리
-   ```bash
-   # 브랜치 목록 확인
-   git branch
+```bash
+# 브랜치 목록 확인
+git branch
 
-   # 새 브랜치 생성
-   git branch 브랜치명
+# 새 브랜치 생성
+git branch 브랜치명
 
-   # 브랜치 전환
-   git checkout 브랜치명
-   # 또는
-   git switch 브랜치명  # Git 2.23 이상
+# 브랜치 전환
+git checkout 브랜치명
+# 또는
+git switch 브랜치명  # Git 2.23 이상
 
-   # 브랜치 생성 및 전환
-   git checkout -b 브랜치명
-   ```
+# 브랜치 생성 및 전환
+git checkout -b 브랜치명
+```
 
 * 원격 저장소 작업
 
-   ```bash
-   # 원격 저장소 추가
-   git remote add origin https://github.com/username/repository.git
+```bash
+# 원격 저장소 추가
+git remote add origin https://github.com/username/repository.git
 
-   # 변경 사항 업로드
-   git push origin 브랜치명
+# 변경 사항 업로드
+git push origin 브랜치명
 
-   # 원격 저장소 변경 사항 가져오기
-   git pull origin 브랜치명
+# 원격 저장소 변경 사항 가져오기
+git pull origin 브랜치명
 
-   # 원격 저장소 정보 확인
-   git remote -v
-   ```
+# 원격 저장소 정보 확인
+git remote -v
+```
 
 * 커밋 내용 취소 (**실수로 커밋한 경우**)
-  ```bash
-  # 마지막 커밋 수정
-  git commit --amend
-  
-  # 마지막 커밋 취소 (변경 사항 유지)
-  git reset HEAD~1
-  ```
+```bash
+# 마지막 커밋 수정
+git commit --amend
+
+# 마지막 커밋 취소 (변경 사항 유지)
+git reset HEAD~1
+```
 
 ### 추가 학습 자료
 
