@@ -45,19 +45,20 @@ conda activate aiot
 conda deactivate
 ```
 
-## 3. 주요 라이브러리 설치
+## 3. 주요 라이브러리 설치 (설치 예시로 필요에 따라 버전)
 
-AIoT Lab 연구에 필요한 주요 라이브러리 설치
+* AIoT Lab 연구에 필요한 주요 라이브러리 설치
+* 아래 예시는 대표적인 구성이며, 프로젝트 필요에 따라 라이브러리 종류나 버전을 조정하여 설치해 사용
 
-### 기본 데이터 분석 및 과학 계산 라이브러리
 
+### 가상환경 활성화 및 기본 데이터 분석과 과학 계산 라이브러리 설치
 ```bash
 conda activate aiot
 conda install numpy pandas matplotlib seaborn scikit-learn scipy
 ```
 
 ### 딥러닝 프레임워크 - PyTorch 설치
-
+* 설치 시 CUDA 버전에 맞는 버전 설치 필요
 ```bash
 # CUDA 지원 GPU가 있는 경우 (CUDA 11.3 기준)
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
@@ -67,21 +68,13 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 
 ### 딥러닝 프레임워크 - Keras/TensorFlow 설치
-
+* 설치 시 CUDA 버전에 맞는 버전 설치 필요
 ```bash
 conda install tensorflow
 ```
 
-### IoT 관련 라이브러리
-
-```bash
-pip install paho-mqtt
-pip install pyserial
-pip install adafruit-io
-```
-
 ### 기타 유용한 라이브러리
-
+* pip: Python 기본 패키지 관리자
 ```bash
 pip install tqdm  # 진행 상황 표시
 pip install plotly  # 인터랙티브 시각화
@@ -104,16 +97,6 @@ conda install jupyterlab
 jupyter notebook  # 또는 jupyter lab
 ```
 
-### Jupyter 확장 기능 설치
-
-```bash
-# 확장 기능 관리자 설치
-conda install -c conda-forge jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
-
-# 코드 자동 완성
-conda install -c conda-forge jupyter_nbextensions_configurator
-```
 
 ## 5. IDE 설정 (VSCode)
 
@@ -121,12 +104,7 @@ Visual Studio Code는 가볍고 강력한 코드 에디터로 Python 개발에 �
 
 1. [VS Code 다운로드](https://code.visualstudio.com/) 및 설치
 2. Python 확장 프로그램 설치 (Extensions 탭에서 'Python' 검색)
-3. 기타 유용한 확장 프로그램:
-   - Python Docstring Generator
-   - Python Indent
-   - Jupyter
-   - GitLens
-   - Code Spell Checker
+3. 기타 유용한 확장 프로그램 설치 (Extensions 탭)
 
 ### VS Code에서 Anaconda 환경 사용하기
 
@@ -136,7 +114,7 @@ Visual Studio Code는 가볍고 강력한 코드 에디터로 Python 개발에 �
 
 ## 6. Git 연동
 
-연구 결과를 관리하고 공유하기 위해 Git을 설정합니다.
+연구 결과를 관리하고 공유하기 위해 Git 설정
 
 ```bash
 # Git 설치 확인
@@ -149,13 +127,10 @@ git config --global user.email "이메일"
 # 저장소 복제
 git clone https://github.com/username/repository.git
 
-# 가상 환경 정보는 .gitignore에 추가하여 제외
-echo "# Python 가상 환경" >> .gitignore
-echo "venv/" >> .gitignore
-echo ".env" >> .gitignore
+# Git에 포함하지 않을 항목을 .gitignore에 추가
 echo "env/" >> .gitignore
-echo "ENV/" >> .gitignore
 echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
 ```
 
 ## 7. 환경 공유 및 재현
