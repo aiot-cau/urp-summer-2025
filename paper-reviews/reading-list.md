@@ -4,23 +4,24 @@
 
 ## 📷 이미지
 
-### 1. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (ResNet)
-- **저자**: K. He, X. Zhang, S. Ren, J. Sun
-- **학회/저널**: CVPR 2016
-- **중요도**: ●●● | **난이도**: ●●○
+### 1. [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)
+- **저자**: A. Krizhevsky, I. Sutskever, G. Hinton  
+- **학회/저널**: NeurIPS 2012  
+- **중요도**: ●●● | **난이도**: ●○○  
+- **요약**: 대규모 CNN을 GPU 기반으로 학습하여 ImageNet 대회에서 압도적인 성능 향상을 달성한 연구로, 딥러닝 기반 컴퓨터비전 시대를 본격적으로 연 논문. ReLU, Dropout, Data Augmentation 등의 핵심 기법을 대중화함.
+
+### 2. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (ResNet)
+- **저자**: K. He, X. Zhang, S. Ren, J. Sun  
+- **학회/저널**: CVPR 2016  
+- **중요도**: ●●● | **난이도**: ●●○  
 - **요약**: Skip connection을 도입하여 매우 깊은 신경망 학습을 가능하게 만든 획기적인 구조로, 이후의 많은 CNN 모델의 기반이 됨.
 
-### 2. [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861) (MobileNets)
-- **저자**: A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko
-- **학회/저널**: arXiv 2017
-- **중요도**: ●●○ | **난이도**: ●○○
-- **요약**: Depthwise Separable Convolution을 이용해 연산량을 획기적으로 줄인 경량화 CNN으로, 모바일 및 임베디드 비전 환경에 최적화됨.
-
 ### 3. [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) (ViT)
-- **저자**: A. Dosovitskiy et al.
-- **학회/저널**: ICLR 2021
-- **중요도**: ●●● | **난이도**: ●●●
+- **저자**: A. Dosovitskiy et al.  
+- **학회/저널**: ICLR 2021  
+- **중요도**: ●●● | **난이도**: ●●●  
 - **요약**: 이미지 분류 문제를 Transformer 구조로 풀어낸 최초의 연구로, CNN 중심의 컴퓨터비전 패러다임을 Transformer로 확장함.
+
 
 ## 📝 자연어 처리
 
