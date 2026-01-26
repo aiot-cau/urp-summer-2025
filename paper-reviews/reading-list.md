@@ -22,6 +22,7 @@
 - **중요도**: ●●● | **난이도**: ●●●  
 - **요약**: 이미지 분류 문제를 Transformer 구조로 풀어낸 최초의 연구로, CNN 중심의 컴퓨터비전 패러다임을 Transformer로 확장함.
 
+
 ## 📝 자연어 처리
 
 ### 1. [Attention is All You Need](https://arxiv.org/abs/1706.03762) (Transformer)
